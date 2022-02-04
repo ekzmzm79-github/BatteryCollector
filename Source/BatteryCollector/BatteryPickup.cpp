@@ -17,7 +17,7 @@ void ABatteryPickup::WasCollected_Implementation()
 {
 	// Use the base pickup behavior
 	Super::WasCollected_Implementation();
-	// Destroy thre battery
+	// Destroy the battery
 	Destroy();
 }
 
